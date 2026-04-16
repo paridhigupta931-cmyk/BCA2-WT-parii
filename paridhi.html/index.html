@@ -10,36 +10,47 @@
 
 <body>
     <!---navbar start-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#">
-                <i class="bi bi-mortatboard-fill me-2">BCA 2025-26</i>
-            </a>
-            <div class="collapse navbar-collapse" id="navbarcontent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link" href="#">HOME</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">FACULTY</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">TIME-TABLE</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">GALLERY</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">FAQ</a>
-            </li>
-        </ul>
-    </div>
+            <a class="navbar-brand fw-bold" href="#">BCA 2025-26</a>
+            <button class="navbar-toggler">
+                <span class="navbar-toggle-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home" aria-current="page">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faculty">FACULTY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#time-table">TIME-TABLE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" aria-expanded="false" href="#"
+                            data-bs-toggle="dropdown">RESOURCES</a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li class="dropdown-item" href="#">Syllabus pdf</li>
+                            <li class="dropdown-item" href="#">Previous year result</li>
+                            <li class="dropdown-item" href="#">Study material</li>
+                            <li class="dropdown-item" href="#"> University portal</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
     <!---navbar end-->
